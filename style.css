@@ -1,0 +1,285 @@
+:root{
+    --MAIN-PURPLE: #8824C7;
+    --LIGHT-PURPLE:#af73d4;
+}
+
+.hover-pointer:hover{
+    color: var(--MAIN-PURPLE);
+    cursor: pointer;
+}
+
+.hover-pointer-opacity:hover{
+    filter: brightness(55%);
+    cursor: pointer;
+}
+
+.hover-pointer-scale:hover{
+    background-color: var(--LIGHT-PURPLE);
+    opacity: 80%;
+    transform: scale(104.5%);
+    cursor: pointer;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0B0B0B;
+    font-family: Questrial;
+    overflow-x: hidden;
+    background: linear-gradient(to right bottom, #8824C7 20%, #0B0B0B 65%);
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#main-header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px;
+    color: white;
+}
+
+
+
+#header-menu{
+    width: fit-content;
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    padding: 0px 5vw;
+    font-weight: 200;
+}
+
+#header-menu b{
+    margin-left: 16px;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+
+#main-header-title{
+    z-index: 2;
+    margin-left: 2vw;
+    margin-right: auto;
+    transition: all 0.5s;
+}
+
+#main-copyright{
+    margin-left: 0px;
+    margin-right: auto;
+    font-size: 14px;
+    opacity: 60%;
+}
+
+a{
+    color: white;
+}
+
+#signature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Allura;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0px;
+    transition: all 0.3s;
+    width: 150px;
+}
+
+#main-main{
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;    
+}
+
+#album-wrapper{
+    width: 100vw;
+    min-height: 50vh;
+    box-sizing: border-box;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 20vh 0px;   
+}
+
+.album-items{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 350px;
+    height: 550px;
+    margin: 8px;
+    border-radius: 16px;
+    transition: all 0.5s ease-out;
+    box-sizing: border-box;
+    padding: 12px;
+    backface-visibility: hidden;
+}
+
+.album-imgs{
+    width: 100%;
+    height: 62.5%;
+    border-radius: 16px;
+    background-color: inherit;
+    background-clip: padding-box;
+}
+
+.album-img-backgrounds{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.album-title{
+    height: 22px;
+    overflow: hidden;
+    margin: 16px 8px 8px 8px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #480d6d;
+}
+
+.album-artist{
+    font-weight: 400;
+    margin: 0px 8px;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+.album-descr{
+    margin: 8px 8px 16px 8px;
+    font-size: 16px;
+    color: #552f69;
+}
+
+.album-rating{
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0px 8px;
+}
+
+.rating-icon{
+    color: #480d6d;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 0px 1px;
+}
+
+.gray{
+    color: rgb(119, 119, 119);
+}
+
+#main-title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 40vh 8px 8px 8px;
+}
+
+#main-subtitle{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40vh;
+}
+
+#main-footer{
+    width: 100vw;
+    min-height: 8vh;
+    color: white;
+    box-sizing: border-box;
+    padding: 0px 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+/*ALBUMS*/
+
+.albums-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15vh 0px 0px 0px;
+}
+
+.albums-main{
+    margin: 0px;
+    border-radius: 16px 16px 0px 0px;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 60vw;
+    min-height: 90vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: Questrial;
+}
+
+.albums-title{
+    font-size: 60px;
+    margin: 5vh 16px 16px 16px;
+}
+
+.albums-artist{
+    margin: 0px;
+    font-size: 30px;
+}
+
+.albums-date{
+    font-size: 20px;
+    color: gray;
+}
+
+.albums-image{
+    width: 30vw;
+    height: 30vw;
+    background-color: red;
+    border-radius: 16px;
+    background-image: url(imgs/AM.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+.albums-descr-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.albums-descr{
+    width: 75%;
+}
+
+.albums-tracklist{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.albums-table{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.albums-table th {
+    background-color: gray;
+    border-radius: 16px 16px 0px 0px;
+    padding: 8px;
+}
+
+.albums-table * {
+    border-collapse: collapse;
+}

@@ -1,0 +1,128 @@
+{
+    "AM": {
+        "Artist": "Arctic Monkeys",
+        "Date": "13/09/2013",
+        "TrackN": 12,
+        "Time": 41.38,
+        "Genre": ["Indie Rock", "Psichedelic Rock"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+        "Descr": "A sleek, mature album blending indie rock with R&B grooves and nocturnal vibes.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 4,
+            "Difficulty": 3
+        }
+    },
+    "Fine Line": {
+        "Artist": "Harry Styles",
+        "Date": "13/12/2019",
+        "TrackN": 12,
+        "Time": 46.43,
+        "Genre": ["Pop Rock", "Soft Rock"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a",
+        "Descr": "An emotional pop-rock record exploring love, heartbreak, and self-discovery.",
+        "Rating": {
+            "Sound": 4,
+            "Length": 4,
+            "Difficulty": 2
+        }
+    },
+    "I Love You": {
+        "Artist": "The Neighbourhood",
+        "Date": "22/04/2013",
+        "TrackN": 11,
+        "Time": 48.19,
+        "Genre": ["Alternative Rock", "Indie Pop"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+        "Descr": "A moody debut filled with dark pop tones and cinematic atmosphere.",
+        "Rating": {
+            "Sound": 4,
+            "Length": 5,
+            "Difficulty": 3
+        }
+    },
+    "Favourite Worst Nightmare": {
+        "Artist": "Arctic Monkeys",
+        "Date": "23/04/2007",
+        "TrackN": 12,
+        "Time": 37.04,
+        "Genre": ["Indie Rock", "Garage Rock"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2738265a736a1eb838ad5a0b921",
+        "Descr": "A fast-paced, energetic follow-up packed with sharp lyrics and raw guitar riffs.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 4,
+            "Difficulty": 4
+        }
+    },
+    "Maggese": {
+        "Artist": "Cesare Cremonini",
+        "Date": "10/06/2005",
+        "TrackN": 14,
+        "Time": 59.00,
+        "Genre": ["Pop"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2737839771341a65f97aa2c7f47",
+        "Descr": "An introspective Italian pop album rich in melody and poetic storytelling.",
+        "Rating": {
+            "Sound": 4,
+            "Length": 5,
+            "Difficulty": 3
+        }
+    },
+    "Greatest Hits": {
+        "Artist": "The Police",
+        "Date": "28/09/1992",
+        "TrackN": 16,
+        "Time": 67.49,
+        "Genre": ["Rock", "New Wave", "Reggae Rock"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2732c43e73e7d34cae022f53daa",
+        "Descr": "A collection of The Police’s iconic hits blending rock, reggae, and new wave.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 5,
+            "Difficulty": 2
+        }
+    },
+    "her": {
+        "Artist": "JVKE",
+        "Date": "30/08/2024",
+        "TrackN": 1,
+        "Time": 2.52,
+        "Genre": ["Pop"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b273a0934c15232680a3afc9da6e",
+        "Descr": "A heartfelt pop single capturing emotion through tender vocals and smooth production.",
+        "Rating": {
+            "Sound": 4,
+            "Length": 1,
+            "Difficulty": 1
+        }
+    },
+    "I Miss You Already + I Haven't Left Yet": {
+        "Artist": "Del Water Gap",
+        "Date": "29/09/2023",
+        "TrackN": 12,
+        "Time": 42.00,
+        "Genre": ["Indie Pop", "Alternative"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b273540ad0064c7c3e34d8c5c921",
+        "Descr": "A reflective indie-pop album exploring love, longing and self-discovery with emotional lyricism and sleek production.",
+        "Rating": {
+            "Sound": 4,
+            "Length": 4,
+            "Difficulty": 3
+        }
+    },
+    "Unorthodox Jukebox": {
+        "Artist": "Bruno Mars",
+        "Date": "07/12/2012",  
+        "TrackN": 10,
+        "Time": 40.00,  
+        "Genre": ["Pop", "R&B", "Funk", "Soul", "Reggae", "Disco"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b273926f43e7cce571e62720fd46",  
+        "Descr": "A genre-blending sophomore album exploring relationships across pop, reggae and rock influences.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 4,
+            "Difficulty": 3
+        }
+    }
+}
