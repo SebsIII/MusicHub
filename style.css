@@ -20,7 +20,7 @@
     cursor: pointer;
 }
 
-body{
+.standard-body{
     margin: 0px;
     padding: 0px;
     background-color: #0B0B0B;
@@ -282,4 +282,87 @@ a{
 
 .albums-table * {
     border-collapse: collapse;
+}
+
+/*AP*/
+
+#ap-body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0B0B0B;
+    font-family: Questrial;
+}
+
+#ap-img-bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 41vw;
+    height: 100vh;
+    filter: blur(2px);
+}
+
+#ap-main{
+    z-index: 3;
+    width: 60vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 16px 0px 0px 16px;
+    background: white;
+    box-sizing: border-box;
+    padding: 12vh 16px 16px 2vw;
+}
+
+#ap-header{
+    z-index: 4;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px;
+    color: var(--MAIN-PURPLE);
+}
+
+#ap-album-test-wrapper{
+    width: 35vw;
+}
+
+#ap-album-img-preview{
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: auto;
+    right: 2vw;
+    border-radius: 16px;
+    transition: all 0.3s;
+}
+
+#ap-main-title{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0px;
+    color: var(--MAIN-PURPLE);
+}
+
+#ap-main-artist{
+    font-size: 20px;
+}
+
+#ap-main-descr{
+    margin-top: 3vh;
+    font-family: Raleway;
+    font-size: 18px;
+    color: var(--MAIN-PURPLE);
+}
+
+#ap-main-ratings{
+    font-weight: bold;
+    font-size: 32px;
 }

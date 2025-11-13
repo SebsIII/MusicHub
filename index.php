@@ -16,7 +16,7 @@
         <link rel="icon" type="image/x-icon" href="imgs/favicon.png"> <!--FAVICON SETUP-->
         <title>MusicHub - Homepage</title>
     </head>
-    <body>
+    <body class="standard-body">
         <header id="main-header">
             <h1 id="main-header-title" class="hover-pointer-opacity" onclick="location.href='index.php'">MusicHub</h1>
             <menu id="header-menu">
@@ -33,16 +33,14 @@
                 $file = json_decode(file_get_contents("albums.json"), true);
                 
                 echo("<div id='album-wrapper'>");
-                foreach($file as $name=>$content){
+                foreach($file as $id=>$content){
 
-                    if(strlen($name) > 30){
-                        $name = substr($name, 0, 30);
-                    }
+                    $name = $content["Name"];
                     $link = $content["Link"];
                     $artist = $content["Artist"];
                     $descr = $content["Descr"];
 
-                    echo("  <div class='album-items hover-pointer-scale' onclick='location.href='albums/AM.html''>
+                    echo("  <div id='$name' class='album-items hover-pointer-scale' onclick=\"location.href='album.php?ID=$id'\">
                         <div class='album-imgs'>
                             <img src='$link' alt='$name' class='album-img-backgrounds'>
                         </div>

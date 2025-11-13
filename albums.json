@@ -1,5 +1,6 @@
 {
-    "AM": {
+    "A3F4C9": {
+        "Name": "AM",
         "Artist": "Arctic Monkeys",
         "Date": "13/09/2013",
         "TrackN": 12,
@@ -7,13 +8,16 @@
         "Genre": ["Indie Rock", "Psichedelic Rock"],
         "Link": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
         "Descr": "A sleek, mature album blending indie rock with R&B grooves and nocturnal vibes.",
+        "LongDescr":"Arctic Monkeys’ AM (2013) marks a bold evolution in their sound, blending rock, R&B, and hip-hop-inspired rhythms. The album pulses with sleek, seductive grooves, underpinned by Alex Turner’s sharp, introspective lyrics about love, desire, and late-night escapades. Tracks like “Do I Wanna Know?” and “R U Mine?” showcase hypnotic riffs and moody atmospheres, while subtle electronic textures add a modern edge. AM balances swagger and vulnerability, exploring complex relationships with wit and sophistication. Its stylish production and catchy hooks cemented Arctic Monkeys as indie rock innovators, delivering a record that is simultaneously edgy, accessible, and undeniably memorable—a contemporary classic.",
         "Rating": {
             "Sound": 5,
             "Length": 4,
             "Difficulty": 3
-        }
+        },
+        "BgImgLink":"https://i.pinimg.com/736x/de/f4/10/def4105570168db9baa6074345be2d22.jpg"
     },
-    "Fine Line": {
+    "9E2F7B": {
+        "Name": "Fine Line",
         "Artist": "Harry Styles",
         "Date": "13/12/2019",
         "TrackN": 12,
@@ -21,41 +25,50 @@
         "Genre": ["Pop Rock", "Soft Rock"],
         "Link": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a",
         "Descr": "An emotional pop-rock record exploring love, heartbreak, and self-discovery.",
+        "LongDescr":"Harry Styles’ Fine Line (2019) is a heartfelt and ambitious pop-rock album exploring themes of love, heartbreak, and personal growth. With lush arrangements blending soft rock, funk, and indie-pop elements, the record reveals Styles’ vulnerability and emotional depth. Standout tracks like “Adore You” and “Watermelon Sugar” balance catchy hooks with introspective storytelling, while experimental production choices create a cinematic atmosphere. Fine Line demonstrates his evolution from boy band sensation to a confident, mature solo artist. The album’s rich instrumentation, heartfelt lyrics, and dynamic vocals make it a compelling, deeply personal work that resonates with fans worldwide.",
         "Rating": {
             "Sound": 4,
             "Length": 4,
             "Difficulty": 2
-        }
+        },
+        "BgImgLink":"https://images.megahits.pt/harry_styles1916761b_vertical.jpg"
     },
-    "I Love You": {
+    "B4D8FA": {
+        "Name": "I Love You",
         "Artist": "The Neighbourhood",
         "Date": "22/04/2013",
         "TrackN": 11,
         "Time": 48.19,
         "Genre": ["Alternative Rock", "Indie Pop"],
-        "Link": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+        "Link": "https://i.scdn.co/image/ab67616d0000b2738265a736a1eb838ad5a0b921",
         "Descr": "A moody debut filled with dark pop tones and cinematic atmosphere.",
+        "LongDescr":"The Neighbourhood’s I Love You (2013) continues the band’s signature blend of moody alternative rock and atmospheric indie pop. Dark, cinematic production underlines emotionally charged lyrics exploring love, longing, and self-reflection. Tracks such as “Afraid” and “R.I.P. 2 My Youth” combine hypnotic rhythms with haunting melodies, creating a sense of brooding intimacy. The album balances vulnerability and intensity, showcasing the band’s flair for melodic experimentation and darkly stylish soundscapes. I Love You cements The Neighbourhood’s identity as purveyors of melancholic yet captivating music, inviting listeners into a reflective and immersive sonic world that resonates deeply with modern indie audiences.",
         "Rating": {
             "Sound": 4,
             "Length": 5,
             "Difficulty": 3
-        }
+        },
+        "BgImgLink":"https://indieemusic.com/wp-content/uploads/2020/03/ef68562dd72f92dd3d8c131aa28782dc.jpg"
     },
-    "Favourite Worst Nightmare": {
+    "C2E6A1": {
+        "Name": "Favourite Worst Nightmare",
         "Artist": "Arctic Monkeys",
         "Date": "23/04/2007",
         "TrackN": 12,
         "Time": 37.04,
         "Genre": ["Indie Rock", "Garage Rock"],
-        "Link": "https://i.scdn.co/image/ab67616d0000b2738265a736a1eb838ad5a0b921",
+        "Link": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
         "Descr": "A fast-paced, energetic follow-up packed with sharp lyrics and raw guitar riffs.",
+        "LongDescr":"Arctic Monkeys’ Favourite Worst Nightmare (2007) is a high-energy, guitar-driven album that builds on the band’s breakout success. Known for its rapid tempos, punchy riffs, and Alex Turner’s witty and observational lyrics, the record captures youthful angst and urban storytelling. Tracks like “Brianstorm” and “Fluorescent Adolescent” combine catchy hooks with relentless energy, creating a vibrant and edgy atmosphere. The album blends garage rock rawness with indie sensibility, showcasing the band’s growing musical sophistication. Favourite Worst Nightmare is a dynamic, unforgettable record that solidifies Arctic Monkeys’ reputation as one of the most inventive and exciting acts in modern rock.",
         "Rating": {
             "Sound": 5,
             "Length": 4,
             "Difficulty": 4
-        }
+        },
+        "BgImgLink":"https://i.pinimg.com/564x/20/2b/0a/202b0a4f5b01e5d466fd9de0cce7f458.jpg"
     },
-    "Maggese": {
+    "7FD43C": {
+        "Name": "Maggese",
         "Artist": "Cesare Cremonini",
         "Date": "10/06/2005",
         "TrackN": 14,
@@ -63,13 +76,16 @@
         "Genre": ["Pop"],
         "Link": "https://i.scdn.co/image/ab67616d0000b2737839771341a65f97aa2c7f47",
         "Descr": "An introspective Italian pop album rich in melody and poetic storytelling.",
+        "LongDescr":"Cesare Cremonini’s Maggese (2005) is a reflective and melodic Italian pop album, blending heartfelt lyrics with catchy, intricate compositions. The record explores themes of youth, love, and personal growth, showcasing Cremonini’s talent for poetic storytelling. Tracks such as “Marmellata #25” and “Le Sei E Mezzanotte” combine infectious melodies with thoughtful arrangements, highlighting his emotive vocals and sense of musical craftsmanship. The album balances introspection with light-hearted moments, creating a rich, dynamic listening experience. Maggese demonstrates Cremonini’s early artistic depth, establishing him as a prominent voice in contemporary Italian pop music, celebrated for both lyricism and charm.",
         "Rating": {
             "Sound": 4,
             "Length": 5,
             "Difficulty": 3
-        }
+        },
+        "BgImgLink":"https://lh5.googleusercontent.com/proxy/HHdKBz0f9funh58OdQsLx7Q701HO27ES5llo78zdBpW6_wKQdxY5UgkOO2P1r7MvYv9r1o4Oq_McWH49jrTmOB3Ayt_AewtAgFA0blcigKbMkMw1kIwO"
     },
-    "Greatest Hits": {
+    "E9B51F": {
+        "Name": "Greatest Hits",
         "Artist": "The Police",
         "Date": "28/09/1992",
         "TrackN": 16,
@@ -77,13 +93,16 @@
         "Genre": ["Rock", "New Wave", "Reggae Rock"],
         "Link": "https://i.scdn.co/image/ab67616d0000b2732c43e73e7d34cae022f53daa",
         "Descr": "A collection of The Police’s iconic hits blending rock, reggae, and new wave.",
+        "LongDescr":"The Police’s Greatest Hits (1992) is a definitive compilation capturing the band’s innovative fusion of rock, reggae, and new wave. Featuring timeless tracks like “Every Breath You Take,” “Roxanne,” and “Message in a Bottle,” the album highlights the band’s masterful songwriting, rhythmic ingenuity, and Sting’s unmistakable vocals. The collection spans their most influential work, balancing energetic grooves with introspective ballads, demonstrating the band’s versatility and lasting appeal. Greatest Hits remains a landmark in modern rock history, offering both longtime fans and newcomers a comprehensive and captivating journey through The Police’s genre-defying musical legacy.",
         "Rating": {
             "Sound": 5,
             "Length": 5,
             "Difficulty": 2
-        }
+        },
+        "BgImgLink":"https://i.pinimg.com/736x/ab/78/f2/ab78f27b6e95c87488a1e5a0f6f3a42d.jpg"
     },
-    "her": {
+    "8C0E5A": {
+        "Name": "her",
         "Artist": "JVKE",
         "Date": "30/08/2024",
         "TrackN": 1,
@@ -91,13 +110,16 @@
         "Genre": ["Pop"],
         "Link": "https://i.scdn.co/image/ab67616d0000b273a0934c15232680a3afc9da6e",
         "Descr": "A heartfelt pop single capturing emotion through tender vocals and smooth production.",
+        "LongDescr":"JVKE’s single her (2024) is a delicate pop track showcasing intimate lyricism and smooth, modern production. With tender vocals and minimalist instrumentation, the song captures themes of love, longing, and emotional vulnerability. Her demonstrates JVKE’s ability to convey complex feelings through simple yet effective musical arrangements, creating a personal and immersive listening experience. Despite its brevity, the track leaves a lasting impression, highlighting his emerging talent as a pop artist capable of blending emotive storytelling with catchy, contemporary sounds. her resonates deeply with audiences seeking heartfelt and relatable pop music.",
         "Rating": {
             "Sound": 4,
             "Length": 1,
             "Difficulty": 1
-        }
+        },
+        "BgImgLink":"https://i.pinimg.com/736x/d1/67/3b/d1673b6a8d2fcf3b3f0b5f2e5fabc6d4.jpg"
     },
-    "I Miss You Already + I Haven't Left Yet": {
+    "6A1BF2": {
+        "Name": "I Miss You Already + I Haven't Left Yet",
         "Artist": "Del Water Gap",
         "Date": "29/09/2023",
         "TrackN": 12,
@@ -105,24 +127,29 @@
         "Genre": ["Indie Pop", "Alternative"],
         "Link": "https://i.scdn.co/image/ab67616d0000b273540ad0064c7c3e34d8c5c921",
         "Descr": "A reflective indie-pop album exploring love, longing and self-discovery with emotional lyricism and sleek production.",
+        "LongDescr":"Del Water Gap’s I Miss You Already + I Haven’t Left Yet (2023) is an emotionally rich indie-pop album blending introspective lyrics with polished, atmospheric production. The record delves into themes of love, loss, and personal growth, with standout tracks offering poignant storytelling and melodic sophistication. Songs such as “Pretend” and “Stay” highlight the delicate balance between vulnerability and hope, wrapped in lush instrumental arrangements. The album captures the subtleties of emotional experience, providing an immersive listening journey. With its evocative soundscapes and heartfelt performances, it solidifies Del Water Gap as a compelling voice in contemporary indie music.",
         "Rating": {
             "Sound": 4,
             "Length": 4,
             "Difficulty": 3
-        }
+        },
+        "BgImgLink":"https://i.pinimg.com/736x/6b/0f/2a/6b0f2a1f8824c96d8b6c47d2d9baf5a2.jpg"
     },
-    "Unorthodox Jukebox": {
+    "D54C78": {
+        "Name": "Unorthodox Jukebox",
         "Artist": "Bruno Mars",
-        "Date": "07/12/2012",  
+        "Date": "07/12/2012",
         "TrackN": 10,
-        "Time": 40.00,  
+        "Time": 40.00,
         "Genre": ["Pop", "R&B", "Funk", "Soul", "Reggae", "Disco"],
-        "Link": "https://i.scdn.co/image/ab67616d0000b273926f43e7cce571e62720fd46",  
+        "Link": "https://i.scdn.co/image/ab67616d0000b273926f43e7cce571e62720fd46",
         "Descr": "A genre-blending sophomore album exploring relationships across pop, reggae and rock influences.",
+        "LongDescr":"Bruno Mars’ Unorthodox Jukebox (2012) is a versatile and energetic album that fuses pop, R&B, funk, soul, reggae, and disco. The record explores themes of love, heartbreak, and personal expression through infectious melodies, tight grooves, and polished production. Standout tracks like “Locked Out of Heaven” and “Treasure” showcase his charismatic vocal performance and genre-blending creativity. The album’s rich instrumentation, clever songwriting, and playful experimentation demonstrate Mars’ growth as a performer and songwriter. Unorthodox Jukebox is both accessible and sophisticated, delivering a fun yet emotionally resonant listening experience that cements Bruno Mars’ place in contemporary pop music.",
         "Rating": {
             "Sound": 5,
             "Length": 4,
             "Difficulty": 3
-        }
+        },
+        "BgImgLink":"https://i.pinimg.com/736x/83/7a/2f/837a2f6d45f18b7ea1e7c2d9a1b3d6e7.jpg"
     }
 }
