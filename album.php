@@ -35,7 +35,7 @@ $sel_album = $albums[$album_id];
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-        <link rel="icon" href="imgs/favicon.png"> <!--FAVICON SETUP-->
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.png"> <!--FAVICON SETUP-->
         <?php
         $album_name = $sel_album["Name"];
         echo("<title>MusicHub - $album_name</title>");
@@ -61,6 +61,7 @@ $sel_album = $albums[$album_id];
         $album_artist = $sel_album["Artist"];
         $album_long_descr = $sel_album["LongDescr"];
         $album_date = $sel_album["Date"];
+        $spotify_hl = $sel_album["SpotifyHyperLink"];
 
         echo    "<main id='ap-main'>
                     <img class='hover-pointer-scale' src='$album_img' id='ap-album-img-preview'>
@@ -81,7 +82,11 @@ $sel_album = $albums[$album_id];
                             }
                             echo("</p>");
                         };
-        echo        "</section>    
+        echo"           <button class='ap-main-listen-btn hover-pointer-scale' onclick=\"window.open('$spotify_hl', '_Blank')\">
+                            <p>Listen on  </p>
+                            <img class='ap-main-listen-img' src='https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png'>    
+                        </button>
+                    </section>    
                 </main>";
         ?>
     </body>
