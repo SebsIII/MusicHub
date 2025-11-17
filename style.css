@@ -190,6 +190,8 @@ a{
     color: white;
     font-size: 20px;
     margin-bottom: 40vh;
+    opacity: 0;
+    transition: all 0.3s;
 }
 
 #main-footer{
@@ -201,6 +203,27 @@ a{
     display: flex;
     align-items: center;
     justify-content: right;
+}
+
+#gradient-overlay{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(to top, rgba(0,0,0, 0.65), transparent)
+}
+
+#text-wrapper{
+    width: 100vw;
+    height: 90vh;
+    background: url("https://www.pngmart.com/files/12/White-Wave-PNG-Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*ALBUMS*/
@@ -389,4 +412,33 @@ a{
     width: 50%;
     height: auto;
     margin-left: 3%;
+}
+
+/*search*/
+
+#main-wrapper{
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    top: 30vh;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#main-wrapper h1 {
+    font-size: 60px;
+}
+
+#search-input{  
+    width: 40vw;
+    height: 5vh;
+    border: none;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 24px;
+    font-family: Questrial;
 }

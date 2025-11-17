@@ -21,13 +21,15 @@
             <h1 id="main-header-title" class="hover-pointer-opacity" onclick="location.href='index.php'">MusicHub</h1>
             <menu id="header-menu">
                 <b onclick="location.href='index.php'" class="hover-pointer-opacity" >Home</b>
-                <b class="hover-pointer-opacity">Articoli</b>
-                <b class="hover-pointer-opacity">Contatti</b>
+                <b class="hover-pointer-opacity" onclick="location.href='search.php'">Cerca</b>
+                <b class="hover-pointer-opacity" onclick="location.href='contacts.html'">Contatti</b>
             </menu>
         </header>
         <main id="main-main">
-            <p id="main-title">Music is what feelings <ins>sound like.</ins></p>
-            <p id="main-subtitle">Discover them now.</p>
+            <section id="text-wrapper">
+                <p id="main-title"></p>
+                <p id="main-subtitle"></p>
+            </section>
             <?php
 
                 $file = json_decode(file_get_contents("albums.json"), true);
@@ -65,9 +67,11 @@
 
             ?>
         </main>
+        <section id="gradient-overlay"></section>
         <footer id="main-footer">
             <p id="main-copyright"><a href='https://www.carafagiustiniani.edu.it/' target="_blank">IIS Carafa Giustiniani</a> 2025-2026, &copy All rights reserved.</p>
             <p id="signature" class="hover-pointer" onclick="window.open('https://www.github.com/SebsIII', '_blank')">By Sebs_</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>

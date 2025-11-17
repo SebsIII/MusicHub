@@ -46,8 +46,8 @@ $sel_album = $albums[$album_id];
             <h1 id="main-header-title" class="hover-pointer-opacity" onclick="location.href='index.php'">MusicHub</h1>
             <menu id="header-menu">
                 <b onclick="location.href='index.php'" class="hover-pointer-opacity" >Home</b>
-                <b class="hover-pointer-opacity">Articoli</b>
-                <b class="hover-pointer-opacity">Contatti</b>
+                <b class="hover-pointer-opacity" >Cerca</b>
+                <b class="hover-pointer-opacity" onclick="location.href='contacts.html'">Contatti</b>
             </menu>
         </header>
         <?php

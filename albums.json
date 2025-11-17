@@ -160,5 +160,113 @@
         },
         "BgImgLink":"https://wallpapers.com/images/featured/bruno-mars-pictures-8jl7770hxqunvb2i.jpg",
         "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/58ufpQsJ1DS5kq4hhzQDiI"
+    },
+    "F18C42": {
+        "Name": "Cani Sciolti",
+        "Artist": "Francesca Michielin",
+        "Date": "24/02/2023",
+        "TrackN": 12,
+        "Time": 41.22,
+        "Genre": ["Pop", "Indie Pop"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2734904ed8abd1254120fc2174b",
+        "Descr": "A mature, introspective pop record marked by organic sounds and personal storytelling.",
+        "LongDescr": "Francesca Michielin’s Cani Sciolti (2023) is an intimate and expressive pop album built around organic instrumentation and heartfelt songwriting. Exploring themes of independence, vulnerability, and identity, the record blends acoustic textures with subtle electronic layers. Tracks like “cheyenne” and “occhi grandi grandi” highlight Michielin’s soulful vocal delivery and lyrical depth. The album’s warm production and emotional nuance create a reflective soundscape that captures the complexity of growing up and learning to let go. Cani Sciolti stands as one of her most mature and personal works, offering a blend of authenticity, charm, and musical sophistication.",
+        "Rating": {
+            "Sound": 4,
+            "Length": 4,
+            "Difficulty": 3
+        },
+        "BgImgLink": "https://static2.iodonna.it/wp-content/uploads/2020/03/Musica-che-unisce-francesca_michielin_MCU12.jpg?v=1464051",
+        "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/33YeCr0tgMg6yS4UWCAYaW"
+    },
+    "A9D7E3": {
+        "Name": "Bagus",
+        "Artist": "Cesare Cremonini",
+        "Date": "20/09/2002",
+        "TrackN": 12,
+        "Time": 51.30,
+        "Genre": ["Pop", "Pop Rock"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b273e49f7d35b8f21b21defa0435",
+        "Descr": "A vibrant debut album mixing pop charm, youthful energy and poetic Italian songwriting.",
+        "LongDescr": "Cesare Cremonini’s debut album Bagus (2002) is a lively blend of pop, rock, and melodic introspection. Filled with youthful energy and heartfelt storytelling, the album showcases Cremonini’s distinctive voice and early artistic personality following his success with Lùnapop. Tracks like “Latin Lover” and “Gli Uomini e le Donne Sono Uguali” mix catchy hooks with emotional depth, while softer moments highlight his talent for introspective lyricism. The production is warm and dynamic, capturing both the playful and reflective aspects of his music. Bagus stands as an essential introduction to Cremonini’s solo journey.",
+        "Rating": {
+            "Sound": 4,
+            "Length": 4,
+            "Difficulty": 2
+        },
+        "BgImgLink": "https://i.scdn.co/image/ab6761610000e5eb6e902d19e31e358becea34ee",
+        "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/6WbUYB2fDctcuzTsQXWcF6"
+    },
+    "ED4A91": {
+        "Name": "The 1975",
+        "Artist": "The 1975",
+        "Date": "02/09/2013",
+        "TrackN": 16,
+        "Time": 74.00,
+        "Genre": ["Indie Pop", "Synthpop", "Alternative"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b27304f21e12e67ba0dfd5db4fbf",
+        "Descr": "An atmospheric debut blending indie pop, synth textures and emotional storytelling.",
+        "LongDescr": "The 1975’s self-titled debut album (2013) is a sprawling, atmospheric project that mixes indie pop, synth-driven soundscapes, and introspective lyricism. Tracks like “Sex,” “Chocolate,” and “Robbers” have become modern indie staples, showcasing the band’s trademark blend of nostalgia, melancholy, and youthful energy. The production is lush and cinematic, with shimmering guitars and dreamy synths supporting Matt Healy’s emotive vocals. The album explores themes of adolescence, relationships, and self-discovery, creating an immersive sonic world that helped define the band’s iconic aesthetic and influence.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 5,
+            "Difficulty": 3
+        },
+        "BgImgLink": "https://i.pinimg.com/736x/96/4f/48/964f4899389f0d69bd54d1ca8e7cd2fe.jpg",
+        "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/74EKsgjD5GJOJpthJ59dhQ"
+    },
+    "C7F2AA": {
+        "Name": "Currents",
+        "Artist": "Tame Impala",
+        "Date": "17/07/2015",
+        "TrackN": 13,
+        "Time": 51.12,
+        "Genre": ["Psychedelic Pop", "Synthpop", "Indie"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+        "Descr": "A lush psychedelic-pop journey exploring change, transformation and emotional turbulence.",
+        "LongDescr": "Tame Impala’s Currents (2015) marks a pivotal shift from psychedelic rock to synth-heavy pop, creating a hypnotic soundscape that explores themes of personal change and emotional evolution. Tracks like “Let It Happen” and “The Less I Know the Better” combine groovy basslines with swirling synth textures and lush production. Kevin Parker’s introspective lyrics and meticulous arrangements create an immersive world that feels both dreamy and cathartic. Currents is widely celebrated as a modern classic, blending innovation with emotional resonance.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 4,
+            "Difficulty": 4
+        },
+        "BgImgLink": "https://i0.wp.com/www.lindiependente.it/wp-content/uploads/2020/02/Tame-Impala-Neil-Krug-Hi-Res.jpg?fit=1200%2C800&ssl=1",
+        "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/79dL7FLiJFOO0EoehUHQBv"
+    },
+    "D83B60": {
+        "Name": "Happier Than Ever",
+        "Artist": "Billie Eilish",
+        "Date": "30/07/2021",
+        "TrackN": 16,
+        "Time": 56.00,
+        "Genre": ["Pop", "Alternative Pop"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e",
+        "Descr": "A bold, emotional album blending soft pop, jazz influences and atmospheric production.",
+        "LongDescr": "Billie Eilish’s Happier Than Ever (2021) is an intimate yet powerful exploration of fame, vulnerability, and emotional growth. The album shifts between whispery ballads and bold, dramatic climaxes, showcasing the nuanced production of Billie and Finneas. Songs like “NDA,” “Your Power,” and the explosive title track illustrate her evolution as a storyteller and vocal performer. With its cinematic textures, minimalist beats, and deeply personal lyrics, the record creates a cohesive emotional journey that reflects a more mature and reflective Billie Eilish.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 5,
+            "Difficulty": 3
+        },
+        "BgImgLink": "https://pbs.twimg.com/media/Eu9imfXXYAMg8-Q.j pg",
+        "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/0JGOiO34nwfUdDrD612dOp"
+    },
+    "9C4ED2": {
+        "Name": "Is This It",
+        "Artist": "The Strokes",
+        "Date": "30/07/2001",
+        "TrackN": 11,
+        "Time": 36.28,
+        "Genre": ["Indie Rock", "Garage Rock Revival"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b27313f2466b83507515291acce4",
+        "Descr": "A raw, iconic indie-rock album revolutionizing the 2000s guitar-band sound.",
+        "LongDescr": "The Strokes’ Is This It (2001) is a landmark indie-rock album that redefined early-2000s music with its minimalist production, gritty guitar tones, and laid-back vocal style. Tracks like “Last Nite,” “Someday,” and “Hard to Explain” feature infectious riffs and sharp songwriting that capture the restless, urban atmosphere of the era. The album’s stripped-down sound and confident simplicity helped spark the garage rock revival, influencing countless bands. Is This It remains a timeless, energetic, and effortlessly cool record.",
+        "Rating": {
+            "Sound": 5,
+            "Length": 4,
+            "Difficulty": 3
+        },
+        "BgImgLink": "https://i.pinimg.com/736x/2e/1d/d7/2e1dd74990fbe94b6faad994d2fe47e6.jpg",
+        "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/2k8KgmDp9oHrmu0MIj4XDE"
     }
 }
