@@ -2,6 +2,7 @@
 
 if(!isset($_GET["ID"])){
     echo "no,album name provided.";
+    header("Location: index.php");
     exit;
 }
 
@@ -10,6 +11,7 @@ $albums = json_decode(file_get_contents("albums.json"), true);
 
 if(!key_exists($album_id, $albums)){
     echo "The selected album does not exist!";
+    header("Location: index.php");
     exit;
 }
 
@@ -65,7 +67,7 @@ $sel_album = $albums[$album_id];
 
         echo    "<main id='ap-main'>
                     <img class='hover-pointer-scale' src='$album_img' id='ap-album-img-preview'>
-                    <section id='ap-album-test-wrapper'>
+                    <section id='ap-album-text-wrapper'>
                         <p id='ap-main-date'>$album_date</p>
                         <h1 id='ap-main-title'>$album_name</h1>
                         <P id='ap-main-artist'>$album_artist</P>

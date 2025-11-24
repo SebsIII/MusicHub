@@ -27,7 +27,7 @@
         </header>
         <main id="main-main">
             <section id="text-wrapper">
-                <p id="main-title"></p>
+                <p id="main-title" class="hover-pointer-scale-nobg"></p>
                 <p id="main-subtitle"></p>
             </section>
             <?php

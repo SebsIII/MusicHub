@@ -20,6 +20,12 @@
     cursor: pointer;
 }
 
+.hover-pointer-scale-nobg:hover{
+    opacity: 80%;
+    transform: scale(104.5%);
+    cursor: pointer;
+}
+
 .standard-body{
     margin: 0px;
     padding: 0px;
@@ -89,6 +95,7 @@ a{
     margin: 0px;
     transition: all 0.3s;
     width: 150px;
+    z-index: 3;
 }
 
 #main-main{
@@ -184,6 +191,7 @@ a{
     font-size: 50px;
     font-weight: bold;
     margin: 40vh 8px 8px 8px;
+    transition: all 0.5s;
 }
 
 #main-subtitle{
@@ -353,7 +361,7 @@ a{
     color: var(--MAIN-PURPLE);
 }
 
-#ap-album-test-wrapper{
+#ap-album-text-wrapper{
     width: 35vw;
 }
 
@@ -416,12 +424,10 @@ a{
 
 /*search*/
 
-#main-wrapper{
+#search-wrapper{
     width: 100vw;
     height: fit-content;
-    position: absolute;
-    top: 30vh;
-    left: 0px;
+    margin: 30vh 0px 10vh 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -441,4 +447,86 @@ a{
     padding: 16px;
     font-size: 24px;
     font-family: Questrial;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*RESPONSIVITà  w=450px h=800px*/
+
+@media screen and (max-width: 600px) {
+    #header-menu b{
+        font-size: 14px;
+    }
+
+    #main-title{
+        margin: 30vh 8px 8px 8px;
+        align-self: center;
+        text-align: center;
+        font-size: 60px;
+        padding: 0px 5vw;
+    }
+
+    #search-input{
+        width: 80vw;
+    }
+
+    #main-footer{
+        flex-direction: column-reverse;
+        height: 15vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main-copyright{
+        margin: 16px auto;
+    }
+
+    #ap-main{
+        width: 100vw;
+        min-height: fit-content;
+        position: absolute;
+        top: 80vh;
+        right: 0px;
+        border-radius: 16px 16px 0px 0px;
+        background: white;
+        box-sizing: border-box;
+        padding: 8vh 16px 16px 2vw;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ap-album-text-wrapper{
+        width: 80vw;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    #ap-album-img-preview{
+        width: 80vw;
+        height: 80vw;
+        border-radius: 16px;
+        transition: all 0.3s;
+        position: static;
+    }
+
+    .ap-main-listen-btn{
+        position: static;
+        width: 80vw;
+        margin: 10vh;
+    }
+
+    #ap-img-bg{
+        width: 100vw;
+        height: 100vh;
+    }
 }

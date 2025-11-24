@@ -248,7 +248,7 @@
             "Length": 5,
             "Difficulty": 3
         },
-        "BgImgLink": "https://pbs.twimg.com/media/Eu9imfXXYAMg8-Q.j pg",
+        "BgImgLink": "https://pbs.twimg.com/media/Eu9imfXXYAMg8-Q.jpg",
         "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/0JGOiO34nwfUdDrD612dOp"
     },
     "9C4ED2": {
@@ -268,5 +268,78 @@
         },
         "BgImgLink": "https://i.pinimg.com/736x/2e/1d/d7/2e1dd74990fbe94b6faad994d2fe47e6.jpg",
         "SpotifyHyperLink": "https://open.spotify.com/intl-it/album/2k8KgmDp9oHrmu0MIj4XDE"
+    },
+    "NEW1": {
+        "Name": "When We All Fall Asleep, Where Do We Go?",
+        "Artist": "Billie Eilish",
+        "Date": "29/03/2019",
+        "TrackN": 14,
+        "Time": 42.55,
+        "Genre": ["Art Pop", "Avant-Pop", "Electropop"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b27350a3147b4edd7701a876c6ce",
+        "Descr": "A dark, dreamy debut capturing the surreal, nocturnal world of a young Billie navigating fame, fear, and introspection.",
+        "LongDescr": "Billie Eilish’s *When We All Fall Asleep, Where Do We Go?* (2019) is a bold, intimate exploration of anxiety, youth, and the subconscious. Produced largely with her brother Finneas in their home studio, the album blends minimal electronic beats, whispery vocals, and unsettling soundscapes. Themes of mental health, dreams, and identity weave throughout tracks like “bad guy,” “bury a friend,” and “when the party’s over.” It’s a genre-defying pop record that feels both fragile and haunting, cementing Billie’s distinctive voice in modern music.",
+        "Rating": {
+        "Sound": 5,
+        "Length": 4,
+        "Difficulty": 3
+        },
+        "BgImgLink": "https://i.pinimg.com/736x/b9/c1/09/b9c109e2b5170539177f3db4c0b95447.jpg",
+        "SpotifyHyperLink": "https://open.spotify.com/album/0S0KGZnfBGSIssfF54WSJh"
+    },
+    "NEW2": {
+        "Name": "The Slow Rush",
+        "Artist": "Tame Impala",
+        "Date": "14/02/2020",
+        "TrackN": 12,
+        "Time": 57.00,
+        "Genre": ["Psychedelic Pop", "Synthpop", "Indie"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2731bbf6d7dc73312e58d1ff0ed",
+        "Descr": "A reflective, time-bending journey through change, nostalgia, and personal growth.",
+        "LongDescr": "On *The Slow Rush*, Kevin Parker leans into expansive synths, lush production, and deep reflection on the passage of time. Themes of temporality, fame, and introspection are woven into songs like “Borderline,” “Lost in Yesterday,” and “It Might Be Time.” The result is a sweeping, emotionally rich album that balances danceable grooves with contemplative moments.",
+        "Rating": {
+        "Sound": 5,
+        "Length": 4,
+        "Difficulty": 4
+        },
+        "BgImgLink": "https://www.rollingstone.it/wp-content/uploads/2019/05/tame-impala-intervista-1.jpg",
+        "SpotifyHyperLink": "https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL"
+    },
+    "NEW3": {
+        "Name": "Lonerism",
+        "Artist": "Tame Impala",
+        "Date": "05/10/2012",
+        "TrackN": 10,
+        "Time": 50.00,
+        "Genre": ["Psychedelic Rock", "Indie"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b27365e2e35c55ee0a1a9b6062d3",
+        "Descr": "A dreamy, introspective psychedelic trip into solitude and self-discovery.",
+        "LongDescr": "Lonerism is one of Tame Impala’s most iconic albums: Kevin Parker builds lush, psychedelic soundscapes that feel both expansive and deeply personal. Tracks like “Feels Like We Only Go Backwards” and “Apocalypse Dreams” explore themes of isolation, yearning, and the mind’s inner world. It’s an album that oscillates between euphoric melody and haunting introspection, showcasing Parker’s songwriting maturity and sonic vision.",
+        "Rating": {
+        "Sound": 5,
+        "Length": 4,
+        "Difficulty": 4
+        },
+        "BgImgLink": "https://www.nme.com/wp-content/uploads/2019/01/Tame-Impala.jpg",
+        "SpotifyHyperLink": "https://open.spotify.com/album/3C2MFZ2iHotUQOSBzdSvM7"
+    },
+    "NEW4": {
+        "Name": "Tranquility Base Hotel & Casino",
+        "Artist": "Arctic Monkeys",
+        "Date": "11/05/2018",
+        "TrackN": 11,
+        "Time": 41.00,
+        "Genre": ["Lounge Pop", "Art Rock", "Psychedelic"],
+        "Link": "https://i.scdn.co/image/ab67616d0000b2738895ff0f90525f4aa9437c27",
+        "Descr": "A cosmic, lounge-y concept album set in a fictional luxury hotel on the moon.",
+        "LongDescr": "Arctic Monkeys take a bold stylistic shift on *Tranquility Base Hotel & Casino*, embracing vintage lounge pop, space-age aesthetics, and conceptual storytelling. The album imagines a luxury lunar resort, with Alex Turner’s lyrics evoking alienation, celebrity, and existential reflection. Songs like “Star Treatment” and “Four Out of Five” merge smooth piano, lush arrangements, and subtle futuristic touches. It’s an ambitious, atmospheric work that defies typical rock conventions and highlights the band’s fearless evolution.",
+        "Rating": {
+        "Sound": 5,
+        "Length": 4,
+        "Difficulty": 4
+        },
+        "BgImgLink": "https://wallpapercat.com/w/full/1/6/1/2251220-1242x2208-iphone-hd-arctic-monkeys-band-wallpaper.jpg",
+        "SpotifyHyperLink": "https://open.spotify.com/album/7v6FNgLDS8KmaWA1amUtqe"
     }
 }
+

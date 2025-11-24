@@ -26,12 +26,13 @@
             </menu>
         </header>
         <main id="main-main">
-            <section id="main-wrapper">
+            <section id="search-wrapper">
                 <h1>Search</h1>
                 <form action="" method="get">
                     <input type="text" name="s" id="search-input" placeholder="Arctic Monkeys, AM, ...">
                 </form>
             </section>
+            <section id="album-wrapper">
             <?php
                 if(isset($_GET["s"])){
                     $albums = json_decode(file_get_contents("albums.json"), true);
@@ -40,14 +41,37 @@
                     foreach($albums as $id=>$value){
                         foreach($value as $data=>$thing){
                             if($itemToSearch == $thing){
-                                echo $id . "<br>"; 
+                                    $name = $albums[$id]["Name"];
+                                    $link = $albums[$id]["Link"];
+                                    $artist = $albums[$id]["Artist"];
+                                    $descr = $albums[$id]["Descr"];
+
+                                    echo("  <div id='$name' class='album-items hover-pointer-scale' onclick=\"location.href='album.php?ID=$id'\">
+                                        <div class='album-imgs'>
+                                            <img src='$link' alt='$name' class='album-img-backgrounds'>
+                                        </div>
+                                        <p class='album-title'>$name</p>
+                                        <p class='album-artist'>$artist</p>
+                                        <p class='album-descr'>$descr</p>");
+                                        foreach($albums[$id]["Rating"] as $thing=>$v){
+                                            echo("<p class='album-rating'>$thing: ");
+                                            for($i = 0; $i < 5; $i++){
+                                                if($i < $v){
+                                                    echo("<snap class='rating-icon'>⏺︎</snap>");
+                                                } else {
+                                                    echo("<snap class='rating-icon gray'>⏺︎</snap>");
+                                                }
+                                            }
+                                            echo("</p>");
+                                        }
+                                    echo "</div>";
+                                echo("</div>");
                             }
                         }
                     };
                 }
-            
             ?>
+            </section>
         </main>
-        <script src="script.js"></script>
     </body>
 </html>
