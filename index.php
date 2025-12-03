@@ -30,6 +30,10 @@
                 <p id="main-title" class="hover-pointer-scale-nobg"></p>
                 <p id="main-subtitle"></p>
             </section>
+            <section id="AIBOX-wrapper">
+                <input type="text" id="AIBOX-input" placeholder="Cerca con AI">
+                <button id="AIBOX-btn" class="hover-pointer-scale">Cerca</button>
+            </section>
             <?php
 
                 $file = json_decode(file_get_contents("albums.json"), true);

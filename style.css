@@ -1,6 +1,7 @@
 :root{
     --MAIN-PURPLE: #8824C7;
     --LIGHT-PURPLE:#af73d4;
+    --GOLD: #ad7505;
 }
 
 .hover-pointer:hover{
@@ -447,6 +448,43 @@ a{
     padding: 16px;
     font-size: 24px;
     font-family: Questrial;
+}
+
+#AIBOX-wrapper{
+    position: absolute;
+    top: 55vh;
+    left: 25vw;
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+#AIBOX-input{
+    width: auto;
+    height: 100%;
+    border: none;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 16px;
+    font-family: Questrial;
+}
+
+#AIBOX-btn{
+    width: 10%;
+    height: 100%;
+    margin-left: 8px;
+    border: none;
+    border-radius: 16px;
+    background-color: var(--GOLD);
+    color: white;
+    transition: all 0.3s;
+    font-family: Questrial;
+    font-size: 18px;
 }
 
 ::-webkit-scrollbar {
